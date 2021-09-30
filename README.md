@@ -1,11 +1,11 @@
 # Dependências
-- Dev Dependencies
+### Dev Dependencies
 * @types/express: servem para importar as tipagens das bibliotecas. Portanto, usada para o typescript funcionar corretamente 
 * @types/pg: para que a biblioteca que faz a conexão do banco de dados com nossa API reconheça a tipagem do ts
 * ts-node-dev: necessário para que o interpretador node traduza o typescript para javascript. Além disso ele realiza o hot reload.
 * typescript: necessário para o reconhecimento do typescript
 
-- Dependencies
+### Dependencies
 * dotenv: necessário para importar as variáveis de ambiente para dentro do nosso projeto
 * express: framework usado para hostear o servidor, tratar rotas e muitas outras funcionalidades
 * express-promise-router: utilizado para conseguirmos exportar rotas para outros arquivos (as rotas retornam promises) e assim podemos utiliza-las no nosso arquivo de services. Isso torna possível a segmentação do código. Dessa forma, temos um arquivo específico de rotas para cada controller, e não um único arquivo contendo todas as rodas da api.
