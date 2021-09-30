@@ -1,0 +1,22 @@
+{
+  "name": "challangeFI",
+  "author": {"name": "Vitor Laguardia Xavier", "email": "vitorlaguardia13@gmail.com"},
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node-dev --transpile-only --ignore-watch node_modules server.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/pg": "^8.6.1",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-promise-router": "^4.1.0",
+    "pg": "^8.7.1"
+  }
+}
